@@ -1,5 +1,6 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Raleway;
+    color: #2d2d2d;
 }
 
 .header {
@@ -20,7 +21,7 @@ li {
 }
 
 .site-title {
-    color: #2d2d2d;
+    
     font-size: 28px;
     letter-spacing: 4px;
     padding: 10px 20px;
@@ -46,3 +47,28 @@ li {
     padding-right: 20px;
     margin-top: 45px;
 }
+
+.top-image {
+    width: 80%;
+    height: auto;
+    margin: 15px 130px;
+}
+
+.section-title {
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+
+.contents-item img {
+    float: left;
+    width: 20%;
+    height: auto;
+    padding-right: 50px;
+}
+
+/*.more-info {
+    border-top: 2px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+    padding: 10px 0;
+}*/
