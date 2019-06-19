@@ -29,25 +29,6 @@ li {
     float: left;
 }
 
-.footer {
-    background-color: #222a2c;
-    height: 70px;
-    color: #aaa
-}
-
-.footer-list li {
-    float: left;
-    padding: 23px 40px;
-    font-size: 14px;
-}
-
-.copyright {
-    float: right;
-    font-size: 12px;
-    padding-right: 20px;
-    margin-top: 45px;
-}
-
 .top-image {
     width: 80%;
     height: auto;
@@ -72,3 +53,36 @@ li {
     border-bottom: 2px solid #ebebeb;
     padding: 10px 0;
 }*/
+
+.main {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse; 
+}
+
+table td {
+    padding: 20px 10px;
+    border: 1px solid #626262;    
+}
+
+
+.footer {
+    background-color: #222a2c;
+    height: 70px;
+    color: #aaa
+}
+
+.footer-list li {
+    float: left;
+    padding: 23px 40px;
+    font-size: 14px;
+}
+
+.copyright {
+    float: right;
+    font-size: 12px;
+    padding-right: 20px;
+    margin-top: 45px;
+}
