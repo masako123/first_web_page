@@ -1,6 +1,7 @@
 body {
     font-family: Raleway;
     color: #2d2d2d;
+    letter-spacing: 1px;
 }
 
 .header {
@@ -21,7 +22,6 @@ li {
 }
 
 .site-title {
-    
     font-size: 28px;
     letter-spacing: 4px;
     padding: 10px 20px;
@@ -37,22 +37,32 @@ li {
 
 .section-title {
     font-weight: 300;
-    padding-left: 10px;
+    padding-left: 20px;
+    margin-top: 50px;
+    border-bottom: 1px solid #8e8e8e;
+    padding-bottom: 10px;
 }
 
+.contents {
+    display: flex;
+    justify-content: space-around;
+}
 
 .contents-item img {
-    float: left;
-    width: 20%;
-    height: auto;
+    width: auto;
+    height: 200px;
     padding-right: 50px;
 }
 
-/*.more-info {
+.more-info {
     border-top: 2px solid #ebebeb;
     border-bottom: 2px solid #ebebeb;
+    display: flex;
+    width: 250px;
+    justify-content: center;
     padding: 10px 0;
-}*/
+    margin: 0 auto;
+}
 
 .main {
     margin-bottom: 20px;
@@ -63,10 +73,12 @@ table {
 }
 
 table td {
-    padding: 20px 10px;
-    border: 1px solid #626262;    
+    padding: 20px 20px;
 }
 
+table tr {
+    border-bottom: 1px solid #eee;    
+}
 
 .footer {
     background-color: #222a2c;
@@ -76,8 +88,9 @@ table td {
 
 .footer-list li {
     float: left;
-    padding: 23px 40px;
     font-size: 14px;
+    vertical-align: middle;
+    padding: 23px 40px;    
 }
 
 .copyright {
